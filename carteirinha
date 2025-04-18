@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documento Nacional do Estudante (DNE)</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fef6f0;
+    }
+
+    header {
+      background-color: #2962FF;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn-renovar {
+      background-color: #FF3B30;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    main {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .student-img img {
+      width: 180px;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .student-info {
+      text-align: left;
+      font-size: 18px;
+    }
+
+    .student-info span {
+      font-weight: bold;
+    }
+
+    .status-button {
+      background-color: #28a745; /* verde para ativo */
+      color: white;
+      font-weight: bold;
+      padding: 10px 20px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: default;
+    }
+
+    footer {
+      background-color: #d3d8dd;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="https://api.uniscestudantil.org.br/images/logo_unisc.png" alt="Logo UNISC">
+    <div class="menu">
+      <a href="/">VOLTAR</a>
+      <a href="https://api.whatsapp.com/send?phone=+5521986070429&text=Ol%C3%A1,Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20Carteira">CONTATO</a>
+      <button class="btn-renovar">RENOVAR</button>
+    </div>
+  </header>
+
+  <main>
+    <h1>DOCUMENTO NACIONAL DO ESTUDANTE (DNE)</h1>
+    <div class="content">
+      <div class="student-img">
+        <img src="https://api.uniscestudantil.org.br/images/amanda%20pontes%20p..jpg" alt="Foto estudante">
+      </div>
+      <div class="student-info">
+        <p><span>Nome:</span> AMANDA PONTES PEREIRA</p>
+        <p><span>Instituição de ensino:</span> UNIV. FEDERAL DO RIO DE JANEIRO - UFRJ</p>
+        <p><span>Curso:</span> PÓS EM DIREITO DO TRABALHO</p>
+        <p><strong>Documentos:</strong></p>
+        <p><span>CPF:</span> 108.127.397-60</p>
+        <p><span>RG:</span> 22039390-4</p>
+        <p><span>Data Nasc:</span> 13/05/1994</p>
+        <button class="status-button">ATIVO</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p><strong>UNISC ESTUDANTIL</strong></p>
+    <p>UNIAO ESTUDANTIL NACIONAL DE INCENTIVO SOCIAL E CULTURAL</p>
+    <p>CNPJ: 31.370.444/0001-42</p>
+    <p>uniscestudantil@gmail.com</p>
+  </footer>
+</body>
+</html>
